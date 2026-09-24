@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Enerplan | Asesoramiento energético para tu luz y tu gas",
+    "description": "Revisamos tu factura de luz y gas y te decimos dónde puedes ahorrar. Solicita tu consulta gratuita y sin compromiso."
+  },
+  "brand": { "name": "Enerplan" },
+  "anchors": {
+    "howItWorks": "como-funciona",
+    "benefits": "beneficios",
+    "contact": "contacto"
+  },
+  "header": {
+    "nav": [
+      { "label": "Cómo funciona", "anchor": "como-funciona" },
+      { "label": "Beneficios", "anchor": "beneficios" },
+      { "label": "Contacto", "anchor": "contacto" }
+    ],
+    "cta": "Consulta gratuita",
+    "menuLabel": "Abrir menú"
+  },
+  "hero": {
+    "badge": "Asesoramiento energético",
+    "title": "Paga menos por tu luz y tu gas",
+    "subtitle": "Revisamos tu factura y te decimos dónde puedes ahorrar. Consulta gratuita y sin compromiso de la mano de asesores especializados en el mercado español.",
+    "cta": "Solicitar consulta gratuita",
+    "chart": {
+      "title": "Tu factura mensual",
+      "before": { "label": "Antes", "amount": 142, "display": "142€" },
+      "after": { "label": "Con Enerplan", "amount": 85, "display": "85€", "note": "(Ahorro de hasta el 40%)" }
+    }
+  },
+  "problem": {
+    "title": "¿Tu factura de luz y gas te da quebraderos de cabeza?",
+    "items": [
+      {
+        "title": "Facturas cada vez más altas",
+        "description": "El precio de la energía no para de subir y es cada vez más difícil mantener un control real sobre lo que pagas a fin de mes."
+      },
+      {
+        "title": "Contratos confusos",
+        "description": "La letra pequeña, las cláusulas de permanencia ocultas y los servicios adicionales innecesarios complican entender tu tarifa."
+      },
+      {
+        "title": "Falta de tiempo",
+        "description": "Analizar el mercado español de comercializadoras y comparar tarifas requiere horas de investigación que tú no tienes."
+      }
+    ]
+  },
+  "solution": {
+    "title": "Una revisión energética a tu medida",
+    "checks": [
+      {
+        "title": "Detectamos sobrecostes en tu factura",
+        "description": "Localizamos penalizaciones, potencias contratadas desmesuradas y cobros extra."
+      },
+      {
+        "title": "Comparamos tarifas del mercado",
+        "description": "Cruzamos tu consumo real con todas las ofertas vigentes de luz y gas en España."
+      },
+      {
+        "title": "Te lo explicamos con claridad",
+        "description": "Sin tecnicismos. Recibe un informe directo con el ahorro anual exacto que conseguirás."
+      }
+    ],
+    "process": {
+      "title": "Nuestro proceso de optimización",
+      "steps": [
+        { "label": "Envío", "text": "Nos envías una copia de tu última factura" },
+        { "label": "Análisis", "text": "Software inteligente busca tarifas óptimas" },
+        { "label": "Cambio", "text": "Gestionamos todo el papeleo sin cortes" }
+      ]
+    },
+    "banner": {
+      "title": "¿Quieres saber cuánto puedes ahorrar hoy?",
+      "text": "Consulta gratuita con un gestor personal sin compromiso de permanencia.",
+      "cta": "Solicitar ahora"
+    }
+  },
+  "benefits": {
+    "title": "Por qué elegirnos",
+    "items": [
+      {
+        "title": "Ahorro en tu factura",
+        "description": "Garantizamos la tarifa más baja adaptada a tus hábitos reales de consumo doméstico o empresarial."
+      },
+      {
+        "title": "Sin compromiso",
+        "description": "Si tras analizar tu factura vemos que tienes la mejor opción, te lo diremos con total honestidad."
+      },
+      {
+        "title": "Análisis experto",
+        "description": "Expertos al día de la regulación energética española que analizan el mercado constantemente."
+      },
+      {
+        "title": "Trato personal",
+        "description": "Tendrás un asesor personal asignado con nombre y apellidos, nada de centralitas ni contestadores automáticos."
+      },
+      {
+        "title": "Contratos claros",
+        "description": "Te explicamos detalladamente cada punto del contrato para que no haya servicios sorpresa ocultos."
+      },
+      {
+        "title": "Acompañamiento",
+        "description": "Te ayudamos durante todo el año, vigilando que tus tarifas sigan siendo competitivas en el tiempo."
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "steps": [
+      {
+        "title": "Analizamos tu caso",
+        "description": "Subes tus datos o última factura. Evaluamos de forma integral tus tarifas contratadas."
+      },
+      {
+        "title": "Revisamos tu factura",
+        "description": "Buscamos ineficiencias técnicas y comparamos con más de 40 comercializadoras vigentes."
+      },
+      {
+        "title": "Proponemos una solución",
+        "description": "Te presentamos una propuesta clara. Si decides cambiar, realizamos toda la gestión gratis."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Solicita tu consulta gratuita",
+    "subtitle": "Déjanos tus datos y un gestor especializado se pondrá en contacto contigo para estudiar tu caso sin compromiso.",
+    "fields": {
+      "name": { "label": "Nombre completo", "placeholder": "Ej. Juan Pérez García" },
+      "phone": { "label": "Teléfono de contacto", "placeholder": "Ej. +34 600 000 000" },
+      "email": { "label": "Email", "placeholder": "Ej. juan.perez@empresa.es" },
+      "clientType": {
+        "label": "Tipo de cliente",
+        "options": [
+          { "value": "particular", "label": "Particular" },
+          { "value": "empresa", "label": "Empresa" }
+        ]
+      },
+      "message": {
+        "label": "Mensaje",
+        "placeholder": "Cuéntanos brevemente si necesitas optimizar luz, gas o ambos..."
+      }
+    },
+    "submit": "Enviar solicitud",
+    "errors": {
+      "required": "Este campo es obligatorio.",
+      "email": "Introduce un email válido.",
+      "phone": "Introduce un teléfono válido."
+    },
+    "success": "¡Gracias! Hemos recibido tu solicitud y te contactaremos pronto."
+  },
+  "footer": {
+    "links": [
+      { "label": "Aviso legal", "href": "#" },
+      { "label": "Política de privacidad", "href": "#" },
+      { "label": "Cookies", "href": "#" }
+    ],
+    "copyright": "© 2026 Enerplan. Todos los derechos reservados. Legal simulado.",
+    "tagline": "Asesoría Energética España"
+  }
+}
