@@ -1,28 +1,51 @@
 @import "tailwindcss";
 
 @theme {
+  /* Marca */
   --color-brand-50: #eff6ff;
   --color-brand-100: #dbeafe;
-  --color-brand-500: #3b82f6;
-  --color-brand-700: #1d4ed8;
   --color-brand-900: #1e3a8a;
 
+  /* Acento: solo botones de acción y checks */
   --color-accent: #15803d;
   --color-accent-hover: #166534;
+  --color-accent-soft: #dcfce7;
 
+  /* Texto y superficies */
   --color-ink: #0f172a;
   --color-ink-muted: #475569;
-
   --color-surface: #ffffff;
   --color-surface-alt: #f1f5f9;
 
-  --container-page: 72rem;
+  /* Bordes */
+  --color-line: #e2e8f0;
+  --color-line-strong: #cbd5e1;
+
+  /* Sobre fondo oscuro (footer) */
+  --color-on-dark: #cbd5e1;
+  --color-line-dark: #334155;
+
+  /* Radios */
+  --radius-btn: 0.625rem;
   --radius-card: 1rem;
-  --shadow-card: 0 4px 24px -8px rgb(15 23 42 / 0.12);
+  --radius-panel: 1.5rem;
+
+  /* Tamaños de texto */
+  --text-display: 3.5rem;
+  --text-display--line-height: 1.1;
+  --text-title: 2.25rem;
+  --text-title--line-height: 1.2;
+  --text-lead: 1.25rem;
+  --text-lead--line-height: 1.6;
+
+  /* Layout */
+  --container-page: 80rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-gutter-lg: 7.5rem;
 }
 
 @theme inline {
-  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-sans: var(--font-jakarta), system-ui, sans-serif;
 }
 
 @layer base {
@@ -35,9 +58,33 @@
   }
 
   h1,
-  h2,
+  h2 {
+    @apply text-brand-900 font-extrabold tracking-tight;
+  }
+
   h3 {
-    @apply text-ink font-bold tracking-tight;
+    @apply text-brand-900 font-bold;
+  }
+
+  h1 {
+    font-size: 2.125rem;
+    line-height: 1.12;
+  }
+
+  h2 {
+    font-size: 1.625rem;
+    line-height: 1.2;
+  }
+
+  @media (min-width: 1024px) {
+    h1 {
+      font-size: var(--text-display);
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: var(--text-title);
+    }
   }
 
   a,
@@ -46,7 +93,7 @@
   }
 
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-brand-500;
+    @apply outline-2 outline-offset-2 outline-brand-900;
   }
 
   @media (prefers-reduced-motion: reduce) {
